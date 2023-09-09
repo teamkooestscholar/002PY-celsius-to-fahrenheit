@@ -14,12 +14,12 @@ def celsius_to_fahrenheit(celsius):
 
 ## Bonus Challenges
 
-- Modify the function to handle temperature values in different temperature scales (e.g., Kelvin) **[+5 extra credit points]**
+- Modify the function to handle temperature values in different temperature scales (e.g., Kelvin) (Hint: use a second parameter to specify the scale). **[+5 extra credit points]**
 
-- Create a command-line tool that allows users to input a temperature in Celsius and get the corresponding temperature in Fahrenheit. **[+5 extra credit points]**
+- Create a command-line tool that allows users to input a temperature in Celsius and get the corresponding temperature in Fahrenheit. (Hint: use the `input()` function to get user input). **[+5 extra credit points]**
 
 ## How to answer?
 
-- Navigate to the src directory and edit the `solution.py` file.
+- Navigate to the `src` directory and edit the `solution.py` file.
 
 - Replace the `pass` with your solution.
