@@ -1,4 +1,4 @@
-# Write a function that converts Celsius to Fahrenheit.
+# A function that converts Celsius to Fahrenheit.
 def convert_temperature(temperature, scale):
     if scale.lower() == 'celsius':
         fahrenheit = (temperature * 9/5) + 32
@@ -8,12 +8,12 @@ def convert_temperature(temperature, scale):
         fahrenheit = (celsius * 9/5) + 32
         return fahrenheit
     else:
-        raise ValueError("Unsupported temperature scale")
+        raise ValueError("Unknown temperature scale. Please Restart the program ")
 
 def main():
     try:
-        temperature = float(160) #input here
-        scale = input('celsius') #'celsius'/'kelvin'
+        temperature = float(160) 
+        scale = input('celsius') 
         
         converted_temperature = convert_temperature(temperature, scale)
         print(f"{temperature} {scale.capitalize()} is {converted_temperature:.2f} Fahrenheit.")
