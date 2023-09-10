@@ -30,5 +30,5 @@ try:
         else:
             print(converted_temperature)
 except ValueError:
-    print("Invalid input. Please enter a valid temperature value.")
+    print("Invalid input, enter a valid temperature value only.")
 
